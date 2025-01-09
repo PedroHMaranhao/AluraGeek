@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><img src="./img/Logo.svg" alt=""></header>
+    <main class="content">
+        <section class="Produtos">
+            <h1>Meus Produtos:</h1>
+            <div class="cards">
+                <ul class="cards__container" alt="vendas camisas" data-lista>
+                </ul>   
+            </div>
+        </section>
+        <section class="adicionar__Produtos">
+            <h1>Adicionar Produto:</h1>
+            <form class="form" data-formulario>
+                <div class="formulario__campo">
+                    <input name="produto" id="produto" class="campo__escrita" required placeholder="Insira o nome do produto" data-produto/>
+                </div>
+                <div class="formulario__campo">
+                    <input name="preco" id="preco" class="campo__escrita" required placeholder="Insira o preço" data-preco/>
+                </div>
+                <div class="formulario__campo">
+                    <input name="imagem" id="imagem" class="campo__escrita" required placeholder="Insira a url da imagem" data-imagem/>
+                </div>
+                <div class="btn__form">
+                    <input name="Cadastrar" class="formulario__botao" type="submit" value="Cadastrar"/>
+                    <input class="formulario__botao" type="reset" value="Limpar"/>
+                </div>        
+            </form>
+        </section>
+    </main>
+    <footer>
+        <img id="logo_rodape" src="./img/Logo.svg" alt="logo alura geek"/>
+        <p id="desenvolvedor">Desenvolvido por Pedro Maranhão &copy; 2025</p>
+        <p>
+            <a href="https://www.linkedin.com/in/pedromaranhao/" target="_blank">
+                <img src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>
+              </a>
+              <a href="https://github.com/PedroHMaranhao"  target="_blank">
+                <img src="https://img.icons8.com/color/48/github--v1.png" alt="github"/>
+              </a>
+        </p>
+    </footer>
+    <script src="./js/mostrarProdutos.js" type="module"></script>
+    <script src="./js/criarProduto.js" type="module"></script>
+</body>
+</html>

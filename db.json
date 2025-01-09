@@ -1,0 +1,64 @@
+{
+  "Produtos": [
+    {
+      "nome": "Ovelha",
+      "preco": "R$500,00",
+      "imagem": "https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia2356/racas-ovelhas-boa-adaptabilidade-brasil-13-cpt.jpg",
+      "id": 1
+    },
+    {
+      "nome": "Game Boy Classic",
+      "preco": "R$200,00",
+      "imagem": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg",
+      "id": 2
+    },
+    {
+      "nome": "Playstation 5",
+      "preco": "R$4000,00",
+      "imagem": "https://m.media-amazon.com/images/I/51rGObDEOvL._AC_SL1000_.jpg",
+      "id": 3
+    },
+    {
+      "nome": "8BitDo Controller",
+      "preco": "R$400,00",
+      "imagem": "https://down-br.img.susercontent.com/file/cn-11134207-7r98o-luhke4vzfzk041.webp",
+      "id": 4
+    },
+    {
+      "nome": "Smartwatch Xiaomi",
+      "preco": "R$300,00",
+      "imagem": "https://m.media-amazon.com/images/I/61mdalteT4L._AC_SL1500_.jpg",
+      "id": 5
+    },
+    {
+      "nome": "Caixa de som JBL",
+      "preco": "R$221,00",
+      "imagem": "https://m.media-amazon.com/images/I/61Po8IfWsiL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "id": 6
+    },
+    {
+      "nome": "Adaptador Bluetooth PC",
+      "preco": "R$84,90",
+      "imagem": "https://m.media-amazon.com/images/I/51XzimFS-pL._AC_SL1000_.jpg",
+      "id": 7
+    },
+    {
+      "nome": "SSD Sandisk 480GB",
+      "preco": "R$205,89",
+      "imagem": "https://m.media-amazon.com/images/I/51oKEfu53wL._AC_SL1200_.jpg",
+      "id": 8
+    },
+    {
+      "nome": "Mouse sem fio Logitech",
+      "preco": "R$56,98",
+      "imagem": "https://m.media-amazon.com/images/I/51+TpH1VS8L._AC_SL1500_.jpg",
+      "id": 9
+    },
+    {
+      "nome": "Cartão SD 64GB",
+      "preco": "R$43,30",
+      "imagem": "https://m.media-amazon.com/images/I/41xh08ZprWL._AC_SL1000_.jpg",
+      "id": 10
+    }
+  ]
+}
